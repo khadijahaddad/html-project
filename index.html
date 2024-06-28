@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - KHadija Haddad </title>
+    <style>
+         
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        iframe {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        .circular-image {
+    width: 200px; /* Adjust the width and height as needed */
+    height: 200px;
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire circle */
+  }
+            
+             
+         
+        .contact-info {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .summary {
+            text-align: left;
+        }
+        .interests {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portfolio - khadija haddad</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my portfolio website. Explore to learn more about me and my projects.</p>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>Hey! I'm khadija haddad, a passionate and motivated student currently in my second year of high school and learning web development at GoMyCode. My interest in web development stems from a curiosity about coding and the pivotal role of technology in our future.</p>
+    
+    <p>I am actively exploring HTML, CSS, JavaScript, and other web technologies to create functional and visually appealing websites. Through projects at GoMyCode and self-study, I am building a solid foundation in front-end development and eager to delve deeper into back-end technologies.</p>
+    
+    <p>Outside of coding, I have a love for playing basketball, where I consider myself a skilled player. Combining my technical interests with sports helps me maintain a balanced and dynamic approach to learning and growth.</p>
+    
+    <div>
+        <img class="circular-image" src="src/image .jpg" alt="circular-image">
+    </div>
+</section>
+
+<section id="work">
+    <h1>Work</h1>
+    <ul>
+        <li><a href="https://www.canva.com/design/DAGIEhAhabc/tHRhfVuPgzSW7e05wGaUWg/view?utm_content=DAGIEhAhabc&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">Project 1</a></li>
+        <li><a href="src/learn_html/index.html" target="_blank">Project 2</a></li> 
+        <li><a href="src/gomycode!!/index.html" target="_blank">Project 3</a></li>
+    </ul>
+</section>
+
+<section id="resume">
+    <h1>Resume</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UqHILyzcULE" frameborder="0" allowfullscreen></iframe>
+    
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <h3>Khadija Haddad</h3>
+        <a href="https://wa.me/+212643822721" target="_blank" rel="whatsapp">Whatsapp</a>
+        <a href="mailto:khadijahdd14@icloud.com" target="_blank">Email</a> 
+        <a href="https://www.instagram.com/_.dijaa._" target="_blank">Instagram</a>
+        
+    </div>
+    
+    <div class="summary">
+        <h2>Summary</h2>
+        <p>Motivated high school student at GoMyCode with a passion for web development and coding. Eager to learn and apply HTML, CSS, and JavaScript skills to create user-friendly websites.</p>
+    </div>
+    
+    <div class="education">
+        <h2>Education</h2>
+        <p><em><b>Current School:</b></em>  Hassan Scientific High School</p>
+        <p><em><b>GoMyCode:</b></em> Web Development Bootcamp</p>
+    </div>
+    
+    <div class="interests">
+        <h2>Interests</h2>
+        <p>Outside of coding, enjoy playing basketball and participating in school events.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h1>Contact</h1>
+    <form action="/submit-form" method="post">
+        <label for="name"><em><b>Name:</b></em></label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email"><em><b>Email:</b></em></label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message"> <em><b>Message:</b></em></label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>2024 Portfolio - Khadija haddad</p>
+</footer>
+
+</body>
+</html>
